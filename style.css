@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Young Serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+:root {
+    --clr-nutmeg: #854632;
+    --clr-dark-berry: #7b284f;
+    --clr-white: #ffffff;
+    --clr-rose-white: #fff5fa;
+    --clr-eggshell: #f3e6d8;
+    --clr-light-gray: #e4ded8;
+    --clr-wenge-brown: #5f574e;
+    --clr-darkcoal: #302d2c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Young Serif;
+    color: var(--clr-darkcoal)
+}
+
+body {
+    background-color: var(--clr-eggshell);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 3em;
+}
+
+.container {
+    width: 64.063rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    /* border: 2px solid red */
+}
+
+.img-wrapper,
+.content-wrapper {
+    background-color: #fff;
+    padding-inline: 3.5rem;
+
+}
+
+.img-wrapper {
+    padding-block: 2rem;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.title {
+    font-size: 2em;
+    color: var(--clr-darkcoal);
+}
+
+.description {
+    margin-top: 10px;
+    color: var(--clr-darkcoal);
+    font-size: 0.9em;
+    font-size: 500;
+}
+
+.prep-container {
+    background-color: var(--clr-rose-white);
+    padding: 3rem;
+    margin-top: 2em;
+}
+
+.prep-title {
+    margin-bottom: 1em;
+    font-family: Outfit;
+    color: var(--clr-dark-berry)
+}
+
+span {
+    font-weight: 800;
+    font-family: Outfit;
+}
+
+ul {
+    margin-left: 1.5em;
+}
+
+li {
+    font-family: Outfit;
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: '';
+    margin-left: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES START */
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+
+/* sm */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+
+/* md */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+
+/* lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .section {
+        margin-top: 5rem;
+    }
+
+}
+
+
+/* xl */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 0.313rem;
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
