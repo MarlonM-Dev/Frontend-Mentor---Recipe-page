@@ -49,7 +49,12 @@ img {
 .content-wrapper {
     background-color: #fff;
     padding-inline: 3.5rem;
+}
 
+.content-wrapper {
+    padding-bottom: 4em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
 }
 
 .img-wrapper {
@@ -102,10 +107,49 @@ li::before {
     margin-left: 2em;
 }
 
-.instruction-container {
+.ingred-container {
+    margin-top: 2.4em;
+}
+
+.ingred-title,
+.instruct-title {
+    font-size: 1.8em;
+    color: var(--clr-nutmeg);
+    margin-bottom: 0.6em;
+}
+
+.instructions-container {
     margin-top: 1em;
 }
 
+ol {
+    padding-left: 1.5rem;
+    line-height: 1.5;
+}
+
+ol li {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2em;
+}
+
+th,
+td {
+    border-bottom: 1px solid var(--clr-light-gray);
+    padding: 5px;
+    text-align: left;
+    font-family: Outfit;
+}
+
+.facts {
+    color: var(--clr-nutmeg);
+    font-weight: 800;
+}
 
 
 
