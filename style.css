@@ -74,6 +74,7 @@ img {
     background-color: var(--clr-rose-white);
     padding: 3rem;
     margin-top: 2em;
+    border-radius: 2em;
 }
 
 .prep-title {
@@ -101,6 +102,9 @@ li::before {
     margin-left: 2em;
 }
 
+.instruction-container {
+    margin-top: 1em;
+}
 
 
 
